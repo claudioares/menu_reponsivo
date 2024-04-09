@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: #a435f0;
+    padding: 10px;
+}
+.menu__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu__container a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+@media (min-width:390px) {
+    .menu__container{
+        flex-direction: row;
+        gap: 0;
+    }
+}
